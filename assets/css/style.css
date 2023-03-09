@@ -1,9 +1,11 @@
+main {
+    display: flex;
+    flex-flow: column wrap;
 
-
-
-
+}
 .header {
     background-color: #273439;
+    width: 100%;
 }
 
 
@@ -66,4 +68,128 @@ padding-left: 5px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+}
+
+.aside-box {
+    border-style: none solid none none;
+    margin-top: 20px;
+    float: left;
+}
+
+.aside-about-me {
+    margin-right: 20px;
+
+}
+
+.about-me-box {
+    align-items: center;
+}
+
+.aside-about-me h2 {
+   font-size: 65px;
+    color: #0072bb;
+    text-align: center;
+}
+
+.about-me-content {
+justify-content: center;
+}
+
+
+
+
+.aside-work h2 {
+    font-size: 65px;
+    color: #0072bb;
+    text-align: center;
+}
+
+.aside-contact-me {
+    border-style: none solid none none;
+    padding-right: 25px;
+}
+
+.aside-contact-me h2 {
+    font-size: 65px;
+    color: #0072bb;
+    text-align: center;
+    padding-left: 15px;
+}
+
+.card-prework img{
+    width: 300px;
+
+}
+
+.card-mod-2 img {
+    width: 300px;
+}
+
+.card-cheat-sheet img {
+    width: 300px;
+}
+
+
+
+.work-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.card-prework {
+    background-image: url("./images/prework-study-guide.png");
+    width: 1200px;
+    height:600px;
+    background-size: cover; /* or "contain" depending on what you want */
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align:center;
+    margin:auto;
+    padding:0;
+    position: relative;
+    border: solid #0072bb;
+    border-width: medium;
+
+}
+
+.text-box {
+position: absolute;
+bottom: 0px;
+left: 0px;
+background-color: #0072bb;
+}
+
+
+.card-mod-2 {
+background-image: url("./images/mod-2.png");
+    width: 600px;
+    height: 300px;
+    background-size: cover; /* or "contain" depending on what you want */
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align:center;
+    margin:auto;
+    padding:0;
+    position: relative;
+    border: solid #0072bb;
+    border-width: medium;
+
+}
+
+.card-cheat-sheet {
+    background-image: url("./images/cheat-sheet.png");
+    width: 500px;
+    height: 300px;
+    background-size: cover; /* or "contain" depending on what you want */
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align:center;
+    margin:auto;
+    padding:0;
+    position: relative;
+    border: solid #0072bb;
+    border-width: medium;
+
 }
