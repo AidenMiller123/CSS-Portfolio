@@ -1,3 +1,4 @@
+/* Display's content in main section to flexbox and styling */
 main {
     display:flex;
     flex-wrap: wrap;
@@ -5,11 +6,14 @@ main {
     background-color: #ffffffad;
 
 }
+/* Styles header background color */
 .header {
     background-color: #273439;
     width: 100%;
     
 }
+
+/* Creates profile picture */
 
 .avatar {
     margin-left: 20px;
@@ -18,7 +22,7 @@ main {
     border-radius: 50%
     
 }
-
+/* Styles and positions Miller header */
 .header h1 {
 display: inline-block;
 font-size: 50px;
@@ -28,7 +32,7 @@ background-color: aquamarine;
 padding-left: 5px;
 
 }
-
+/* styles and positions nav bar which contain links */
 .header nav {
     padding-top: 15px;
     margin-top: 20px;
@@ -37,7 +41,7 @@ padding-left: 5px;
     font-size: 20px;
 }
 
-
+/* styles and positions links in header */
 .header nav ul li{
     display: inline-block;
     margin-left: 25px;
@@ -45,11 +49,12 @@ padding-left: 5px;
 
 }
 
+/* styles link text */
 .header nav ul li a {
     color: white;
 }
 
-
+/* styles specific link texts */
 .about-me {
     margin-bottom: 20px;
     padding: 50px;
@@ -85,8 +90,7 @@ padding-left: 5px;
     background-color: #0072bb;
     color: #ffffff;
 }
-
-
+/* adds headers 2 background and positions it */
 .header2 {
     background-image: url(./images/pattern1.jpg);
     height: 200px;
@@ -94,90 +98,86 @@ padding-left: 5px;
     margin-top: -21px;
     position: relative;
 }
-
+/* positions text in header 2 */
 .header2 h1{
     position: absolute;
     bottom: 0px;
     right: 0px;
 }
-
+/* positions aside box elements  */
 .aside-box {
     display: flex;
     border-style: none solid none none;
     margin-top: 20px;
     margin-left: 50px;
 }
-
+/* positions aside about me text */
 .aside-about-me {
     margin-right: 20px;
     padding-right: 25px;
     margin-left: 0px;
 
 }
-
+/* positions aside box with main content */
 .about-me-box {
     display: flex;
     gap: 100px;
 }
-
+/* positions main about me content  */
 .about-me-content {
     font-size: large;
     text-align:left;
     padding-right: 300px;
 
 }
-
+/* styles aside about me text */
 .aside-about-me h2 {
    font-size: 65px;
     color: #0072bb;
     text-align: center;
 }
-
+/* positions aside work content */
 .aside-work {
     padding-right: 25px;
     margin-left: 35px;
 }
-
+/* styles aside work text */
 .aside-work h2 {
     font-size: 65px;
     color: #0072bb;
     text-align: center;
 }
-
+/* positions and styles aside contact me content */
 .aside-contact-me {
     border-style: none solid none none;
     padding-right: 25px;
     margin-left: 25px;
 }
-
+/* styles aside contact me text */
 .aside-contact-me h2 {
     font-size: 65px;
     color: #0072bb;
     text-align: center;
 }
-
+/*  sizes prework image */
 .card-prework img{
     width: 300px;
-
 }
-
+/* sizes module 2 challenge image */
 .card-mod-2 img {
     width: 300px;
 }
-
+/* sizes css cheat sheet image */
 .card-cheat-sheet img {
     width: 300px;
 }
-
-
-
+/* displays main work content in flexbox and wraps it */
 .work-main {
     display: flex;
     flex-wrap: wrap;
     gap: 100px;
-    
 }
- 
+ /* displays work content as flexbox and wraps it */
 .work-content {
     display: flex;
     flex-wrap: wrap;
@@ -186,36 +186,37 @@ padding-left: 5px;
     width: 50%;
     padding-top: 20px;
 }
-
+/* styles prework image */
  .card-prework a { 
      display: block; 
      width: 100%; 
      height: 100%; 
  }
-
+/* creates brightness effect when mouse hovers */
  .card-prework a:hover {
     filter: brightness(110%);
  }
+ /* styles modules 2 challenge image */
 .card-mod-2 a{
     display: block;
     width: 100%;
     height: 100%;
 }
-
+/* creates brightness effect when mouse hovers */
 .card-mod-2 a:hover {
     filter: brightness(110%);
 }
-
+/* styles css cheat sheet image */
 .card-cheat-sheet a {
     display: block;
     width: 100%;
     height: 100%;
 }
-
+/* creates brightness effect when mouse hovers */
 .card-cheat-sheet a:hover {
     filter: brightness(110%);
 }
-
+/* adds background to prework card and styles it */
 .card-prework {
     background-image: url("./images/prework-study-guide.png");
     width: 1200px;
@@ -224,14 +225,13 @@ padding-left: 5px;
     background-position: center center;
     background-repeat: no-repeat;
     text-align:center;
-   
     padding:0;
     position: relative;
     border: solid #0072bb;
     border-width: medium;
 
 }
-
+/* adds text box description inside card */
 .text-box {
 position: absolute;
 bottom: 50px;
@@ -239,7 +239,7 @@ left: 0px;
 background-color: #0072bb;
 }
 
-
+/* adds background to module 2 challenge card and styles it */
 .card-mod-2 {
 background-image: url("./images/mod-2.png");
     width: 584px;
@@ -254,12 +254,12 @@ background-image: url("./images/mod-2.png");
     border-width: medium;
 
 }
-
+/* adds background to css cheat sheet card and styles it */
 .card-cheat-sheet {
     background-image: url("./images/cheat-sheet.png");
     width: 584px;
     height: 300px;
-    background-size: cover; /* or "contain" depending on what you want */
+    background-size: cover; 
     background-position: center center;
     background-repeat: no-repeat;
     text-align:center;
@@ -269,26 +269,23 @@ background-image: url("./images/mod-2.png");
     border-width: medium;
 
 }
-
-
-
+/* displays contanct me aside and main content in flex */
 .contact-me-content  {
     display: flex;
     gap: 100px;
     align-items: center;
 }
-
+/* styles and positions links in contact me  */
 .footer-box {
     padding-top: 15px;
     margin-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
-
+/* displays links in flexbox and positions them  */
 .footer-box ul li {
     display: inline-block;
     margin-left: 100px;
     margin-right: 160px;
     text-decoration: underline;
-   
 }
