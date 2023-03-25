@@ -1,16 +1,17 @@
 /* Display's content in main section to flexbox and styling */
 main {
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     background-color: #ffffffad;
 
 }
+
 /* Styles header background color */
 .header {
     background-color: #273439;
     width: 100%;
-    
+
 }
 
 /* Creates profile picture */
@@ -20,18 +21,19 @@ main {
     width: 75px;
     height: 70px;
     border-radius: 50%
-    
 }
+
 /* Styles and positions Miller header */
 .header h1 {
-display: inline-block;
-font-size: 50px;
-margin-left: 50px;
-color: black;
-background-color: aquamarine;
-padding-left: 5px;
+    display: inline-block;
+    font-size: 50px;
+    margin-left: 50px;
+    color: black;
+    background-color: aquamarine;
+    padding-left: 5px;
 
 }
+
 /* styles and positions nav bar which contain links */
 .header nav {
     padding-top: 15px;
@@ -42,7 +44,7 @@ padding-left: 5px;
 }
 
 /* styles and positions links in header */
-.header nav ul li{
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
     text-decoration: underline;
@@ -90,6 +92,7 @@ padding-left: 5px;
     background-color: #0072bb;
     color: #ffffff;
 }
+
 /* adds headers 2 background and positions it */
 .header2 {
     background-image: url(./images/pattern1.jpg);
@@ -98,12 +101,14 @@ padding-left: 5px;
     margin-top: -21px;
     position: relative;
 }
+
 /* positions text in header 2 */
-.header2 h1{
+.header2 h1 {
     position: absolute;
     bottom: 0px;
     right: 0px;
 }
+
 /* positions aside box elements  */
 .aside-box {
     display: flex;
@@ -111,6 +116,7 @@ padding-left: 5px;
     margin-top: 20px;
     margin-left: 50px;
 }
+
 /* positions aside about me text */
 .aside-about-me {
     margin-right: 20px;
@@ -118,66 +124,64 @@ padding-left: 5px;
     margin-left: 0px;
 
 }
+
 /* positions aside box with main content */
 .about-me-box {
     display: flex;
     gap: 100px;
 }
+
 /* positions main about me content  */
 .about-me-content {
     font-size: large;
-    text-align:left;
+    text-align: left;
     padding-right: 300px;
 
 }
+
 /* styles aside about me text */
 .aside-about-me h2 {
-   font-size: 65px;
+    font-size: 65px;
     color: #0072bb;
     text-align: center;
 }
+
 /* positions aside work content */
 .aside-work {
     padding-right: 25px;
     margin-left: 35px;
 }
+
 /* styles aside work text */
 .aside-work h2 {
     font-size: 65px;
     color: #0072bb;
     text-align: center;
 }
+
 /* positions and styles aside contact me content */
 .aside-contact-me {
     border-style: none solid none none;
     padding-right: 25px;
     margin-left: 25px;
 }
+
 /* styles aside contact me text */
 .aside-contact-me h2 {
     font-size: 65px;
     color: #0072bb;
     text-align: center;
 }
-/*  sizes prework image */
-.card-prework img{
-    width: 300px;
-}
-/* sizes module 2 challenge image */
-.card-mod-2 img {
-    width: 300px;
-}
-/* sizes css cheat sheet image */
-.card-cheat-sheet img {
-    width: 300px;
-}
+
+
 /* displays main work content in flexbox and wraps it */
 .work-main {
     display: flex;
     flex-wrap: wrap;
     gap: 100px;
 }
- /* displays work content as flexbox and wraps it */
+
+/* displays work content as flexbox and wraps it */
 .work-content {
     display: flex;
     flex-wrap: wrap;
@@ -186,95 +190,157 @@ padding-left: 5px;
     width: 50%;
     padding-top: 20px;
 }
+
 /* styles prework image */
- .card-prework a { 
-     display: block; 
-     width: 100%; 
-     height: 100%; 
- }
-/* creates brightness effect when mouse hovers */
- .card-prework a:hover {
-    filter: brightness(110%);
- }
- /* styles modules 2 challenge image */
-.card-mod-2 a{
+.card-prework a {
     display: block;
     width: 100%;
     height: 100%;
 }
-/* creates brightness effect when mouse hovers */
-.card-mod-2 a:hover {
-    filter: brightness(110%);
+/* styles modules 2 challenge image */
+.card-mod-2 a {
+    display: block;
+    width: 100%;
+    height: 100%;
 }
+
+.card-pokedex a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.card-password a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.card-quiz a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
 /* styles css cheat sheet image */
 .card-cheat-sheet a {
     display: block;
     width: 100%;
     height: 100%;
 }
-/* creates brightness effect when mouse hovers */
-.card-cheat-sheet a:hover {
-    filter: brightness(110%);
-}
+
+
 /* adds background to prework card and styles it */
 .card-prework {
     background-image: url("./images/prework-study-guide.png");
     width: 1200px;
-    height:600px;
-    background-size: cover; 
+    height: 600px;
+    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    text-align:center;
-    padding:0;
+    text-align: center;
+    padding: 0;
     position: relative;
     border: solid #0072bb;
     border-width: medium;
 
 }
+
 /* adds text box description inside card */
 .text-box {
-position: absolute;
-bottom: 50px;
-left: 0px;
-background-color: #0072bb;
+    position: absolute;
+    bottom: 50px;
+    left: 0px;
+    background-color: rgb(49, 48, 48);
+    color: white;
+    padding: 5px;
+    font-size: 12px;
 }
 
 /* adds background to module 2 challenge card and styles it */
 .card-mod-2 {
-background-image: url("./images/mod-2.png");
+    background-image: url("./images/mod-2.png");
     width: 584px;
     height: 300px;
-    background-size: cover; 
+    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    text-align:center;
-    padding:0;
+    text-align: center;
+    padding: 0;
     position: relative;
     border: solid #0072bb;
     border-width: medium;
 
 }
+
 /* adds background to css cheat sheet card and styles it */
 .card-cheat-sheet {
     background-image: url("./images/cheat-sheet.png");
     width: 584px;
     height: 300px;
-    background-size: cover; 
+    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    text-align:center;
-    padding:0;
+    text-align: center;
+    padding: 0;
     position: relative;
     border: solid #0072bb;
     border-width: medium;
 
 }
+
+.card-pokedex {
+    background-image: url("./images/Pokedex.png");
+    width: 584px;
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 0;
+    position: relative;
+    border: solid #0072bb;
+    border-width: medium;
+
+}
+
+.card-password {
+    background-image: url("./images/Password.png");
+    width: 584px;
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 0;
+    position: relative;
+    border: solid #0072bb;
+    border-width: medium;
+
+}
+
+.card-quiz {
+    background-image: url("./images/quiz.png");
+    width: 584px;
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 0;
+    position: relative;
+    border: solid #0072bb;
+    border-width: medium;
+
+}
+
 /* displays contanct me aside and main content in flex */
-.contact-me-content  {
+.contact-me-content {
     display: flex;
     gap: 100px;
     align-items: center;
 }
+
 /* styles and positions links in contact me  */
 .footer-box {
     padding-top: 15px;
@@ -282,6 +348,7 @@ background-image: url("./images/mod-2.png");
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
+
 /* displays links in flexbox and positions them  */
 .footer-box ul li {
     display: inline-block;
