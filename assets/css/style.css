@@ -221,6 +221,11 @@ main {
     width: 100%;
     height: 100%;
 }
+.card-weather a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
 
 /* styles css cheat sheet image */
 .card-cheat-sheet a {
@@ -321,6 +326,20 @@ main {
 
 .card-quiz {
     background-image: url("./images/quiz.png");
+    width: 584px;
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 0;
+    position: relative;
+    border: solid #0072bb;
+    border-width: medium;
+
+}
+.card-weather {
+    background-image: url("./images/Weather.png");
     width: 584px;
     height: 300px;
     background-size: cover;
