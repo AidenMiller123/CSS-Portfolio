@@ -234,6 +234,12 @@ main {
     height: 100%;
 }
 
+.card-bloodDonation a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
 
 /* adds background to prework card and styles it */
 .card-prework {
@@ -353,6 +359,20 @@ main {
 
 }
 
+.card-bloodDonation{
+    background-image: url("./images/Blood.png");
+    width: 584px;
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 0;
+    position: relative;
+    border: solid #0072bb;
+    border-width: medium;
+
+}
 /* displays contanct me aside and main content in flex */
 .contact-me-content {
     display: flex;
